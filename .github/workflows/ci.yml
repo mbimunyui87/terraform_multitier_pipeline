@@ -1,1 +1,11 @@
 
+name: CI Workflow
+
+on:
+  pull_request:
+    branches:
+      - release
+  push:
+    branches:
+      - release
+      - main
